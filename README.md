@@ -72,6 +72,15 @@ Sample app for NLC to NLU migration
     - `$ node delete [mode_id]`
 
 
+## Node.js migration
+
+| NLC        | operation     | NLU        |
+|------------|------------|------------|
+| createClassifier() | Create classifier/model | createClassificationModel() |
+| listClassifiers() | List classifiers/models | listClassificationModels() |
+| classify() | Classify/Analyze | analyze() |
+| deleteClassifier() | Delete classifiers/models | deleteClassificationModel() |
+
 
 ## References
 
