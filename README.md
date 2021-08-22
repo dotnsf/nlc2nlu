@@ -76,6 +76,8 @@ Sample app for NLC to NLU migration
 
 | NLC        | operation     | NLU        |
 |------------|------------|------------|
+| IamAuthenticator() | Authenticate | IamAuthenticator() |
+|------------|------------|------------|
 | createClassifier() | Create classifier/model | createClassificationModel() |
 | listClassifiers() | List classifiers/models | listClassificationModels() |
 | classify() | Classify/Analyze | analyze() |
