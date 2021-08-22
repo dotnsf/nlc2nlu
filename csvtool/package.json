@@ -1,0 +1,15 @@
+{
+    "name": "nlc2nlu_csvtool",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "fast-xml-parser": "^3.19.0"
+    },
+    "repository": {},
+    "engines": {
+        "node": "14.x"
+    }
+}
